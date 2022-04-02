@@ -1,0 +1,66 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(bottom, rgb(113, 61, 62) 25%, rgb(147, 92, 93) 63%, rgb(177, 120, 121) 82%);
+    background-image: -o-linear-gradient(bottom, rgb(113, 61, 62) 25%, rgb(147, 92, 93) 63%, rgb(177, 120, 121) 82%);
+    background-image: -moz-linear-gradient(bottom, rgb(113, 61, 62) 25%, rgb(147, 92, 93) 63%, rgb(177, 120, 121) 82%);
+    background-image: -webkit-linear-gradient(bottom, rgb(113, 61, 62) 25%, rgb(147, 92, 93) 63%, rgb(177, 120, 121) 82%);
+    background-image: -ms-linear-gradient(bottom, rgb(113, 61, 62) 25%, rgb(147, 92, 93) 63%, rgb(177, 120, 121) 82%);
+    background-image: -webkit-gradient( linear, left bottom, left top,color-stop(0.63, rgb(42, 93, 160)), color-stop(0.82, rgb(28, 138, 211)), color-stop(0.63, rgb(42, 93, 160)), color-stop(0.82, rgb(28, 138, 211)));
+    color: white;
+}
+
+.menu {
+    background-color: rgba(211, 62, 62, 0.479);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    transition: 1s;
+    font-size: 1.4em;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.titre {
+    display: flex;
+    justify-content: center;
+}
+
+.titre h1:hover {
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    transform: scale(2);
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .occupations { 
+        grid-area: 2 / 1 / 5 / 3;
+        background-color: blueviolet;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .passions {
+        grid-area: 2 / 4 / 5 / 6;
+        background-color: greenyellow;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
