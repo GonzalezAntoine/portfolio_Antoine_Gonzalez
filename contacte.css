@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: -webkit-gradient( linear, left bottom, left top,color-stop(0.63, rgb(42, 93, 160)), color-stop(0.82, rgb(28, 138, 211)), color-stop(0.63, rgb(42, 93, 160)), color-stop(0.82, rgb(28, 138, 211)));
+    color: white;
+}
+
+.menu {
+    background-color: rgba(211, 62, 62, 0.479);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    transition: 1s;
+    font-size: 1.4em;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.titre {
+    display: flex;
+    justify-content: center;
+}
+
+.titre h1:hover {
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    transform: scale(2);
+}
+
+.mail{
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.téléphone {
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
