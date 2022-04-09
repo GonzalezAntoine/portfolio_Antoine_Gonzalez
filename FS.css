@@ -223,3 +223,27 @@
         display: flex;
         justify-content: center;
     }
+
+    #bash{
+        width: 70%;
+    }
+
+    #Bash h1{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .bashprojet{
+        display: flex;
+        justify-content: center;
+    }
+
+    .Projetbash{
+        display: flex;
+        justify-content: center;
+    }
+
+    .Projetbash a{
+        color: black;
+    }
