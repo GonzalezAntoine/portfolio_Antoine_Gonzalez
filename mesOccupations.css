@@ -51,16 +51,32 @@ body {
     
     .occupations { 
         grid-area: 2 / 1 / 5 / 3;
-        background-color: blueviolet;
+        background-color: rgb(65, 158, 212);
         display: flex;
         flex-direction: column;
         align-items: center;
+        border: 1px solid black;
+        border-radius: 10px;
     }
     .passions {
         grid-area: 2 / 4 / 5 / 6;
-        background-color: greenyellow;
+        background-color: rgb(65, 158, 212);
         display: flex;
         flex-direction: column;
         align-items: center;
+        border: 1px solid black;
+        border-radius: 10px;
     }
 
+    .photoIllutrer img {
+        width: 20%;
+        margin-top: 5%;
+        border: 1px solid black;
+        border-radius: 10px;
+
+        
+    }
+    .photoIllutrer {
+        display: flex;
+        justify-content: space-between;
+    }
