@@ -78,8 +78,8 @@
         cursor: pointer;
         color: #ffffff;
         font-family: Georgia;
-        font-size: 25px;
-        padding: 10px 12px;
+        font-size: 100%;
+        padding: 8% 6%;
         text-shadow: 0px 1px 0px #154682;
     }
     
@@ -96,7 +96,7 @@
     .language p img {
         display: flex;
         justify-content: flex-end;
-        width: 100px;
+        width: 65%;
     }
     
     a {
